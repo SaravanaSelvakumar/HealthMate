@@ -39,10 +39,14 @@ A modern iOS application built with SwiftUI to help users search for doctors, ex
 ├── Models/
 │   └── Doctor.swift
 ├── Views/
-│   ├── BookDoctorView.swift
+│   ├── LoginView.swift
+│   ├── HomeView.swift
+│   ├── DrugListView.swift
 │   ├── DoctorListView.swift
+│   ├── HealthTipsView.swift
 │   └── DoctorRow.swift
 ├── ViewModels/
+│   ├── MainViewModel.swift
 │   └── AlertViewModel.swift
 ├── Resources/
 │   └── Assets.xcassets
