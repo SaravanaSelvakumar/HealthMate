@@ -13,6 +13,8 @@ struct DoctorDetailView: View {
     @State private var selectedDate = Date()
     @EnvironmentObject var alertViewModel: AlertViewModel
     let doctor: Doctor
+    @State private var selectedPrescriptions: [SelectedPrescription] = []
+
     
     var body: some View {
         VStack {
@@ -80,6 +82,22 @@ struct DoctorDetailView: View {
             )
             .datePickerStyle(GraphicalDatePickerStyle())
             .padding(.horizontal, 30)
+            
+            
+                ScrollView {
+                    LazyVStack(spacing: 15) {
+                        ForEach(PrescptionList.prescriptions){ presc in
+                            PrescptionView(name: presc.name, dose: presc.dosage){
+                                let newSelection = SelectedPrescription(name: presc.name, dose: presc.dosage, time: "\(selectedDate.formatted(date: .long, time: .omitted)).")
+                                if !selectedPrescriptions.contains(where: { $0.name == presc.name && $0.dose == presc.dosage }) {
+                                    selectedPrescriptions.append(newSelection)
+                                }
+                                print(selectedPrescriptions.count)
+                                print(newSelection.name, newSelection.dose, newSelection.time)
+                            }
+                        }
+                    }
+                }
 
             
             Spacer()
