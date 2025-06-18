@@ -21,10 +21,10 @@ A modern iOS application built with SwiftUI to help users search for doctors, ex
 
 ![Screenshot 2025-06-18 17240te](https://github.com/user-attachments/assets/c34a95e2-9c4c-4c28-be15-b5248487562b)
 ![Screenshot 2025-06-18 172500](https://github.com/user-attachments/assets/c536a833-4688-4d45-af5a-85e64a4d0cf1)
-![Screenshot 2025-06-18 172737](https://github.com/user-attachments/assets/1ee3a7b6-95e3-4450-9160-47f6aa88a0c6)
+![Screenshot 2025-06-18 172550](https://github.com/user-attachments/assets/9bbb4a80-0293-4608-bb3e-4ec63a6b0490)
 ![Screenshot 2025-06-18 172711](https://github.com/user-attachments/assets/b0519a16-8c9f-4bcd-abc0-e0793a48d1b6)
 ![Screenshot 2025-06-18 172624](https://github.com/user-attachments/assets/3fae3994-a7df-4f4b-a152-b6f0a407ae88)
-![Screenshot 2025-06-18 172550](https://github.com/user-attachments/assets/9bbb4a80-0293-4608-bb3e-4ec63a6b0490)
+![Screenshot 2025-06-18 172737](https://github.com/user-attachments/assets/1ee3a7b6-95e3-4450-9160-47f6aa88a0c6)
 
 ---
 
